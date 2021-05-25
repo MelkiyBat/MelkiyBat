@@ -1,0 +1,36 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    max-width: 99%;
+    width: 99%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+ th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid white;
+    color: #039;
+    padding: 8px;
+    transition: 0.4s linear;
+    border-right: 1px solid #9baff1;
+    border-left: 1px solid #9baff1;
+    color: #039;
+  }
+  td {
+    background: #e8edff;
+    border-bottom: 1px solid #9baff1;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+    transition: 1.2s linear;
+    border-right: 1px solid #9baff1;
+    border-left: 1px solid #9baff1;
+    color: #039;
+  }
+  tr:hover td {
+    background: #ccddff;
+  }
